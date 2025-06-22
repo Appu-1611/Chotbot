@@ -7,7 +7,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
 # Access the secret as an environment variable
-OPENAI_API_KEY = os.environ.get('API_KEY')
+OPENAI_API_KEY = os.environ.get('OPENAI_KEY')
 # OPENAI_API_KEY = "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"
 
 #Upload PDF files
